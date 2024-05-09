@@ -1,0 +1,45 @@
+:root {
+    --primary: #F4BD50;
+    --background: #191919;
+    --navbar-height: 48px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+.background {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-wrapper{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    z-index: 2;
+
+}
+
+.menu__bar{
+    position: fixed;
+    
+}
+
+
+
+
+
+
+
+
