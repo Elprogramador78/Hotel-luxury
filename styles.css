@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -8,7 +10,10 @@ h3{font-size: 2em; color: #00215E; font-family: Rajdhani; font-weight: 500;}
 p{font-size: 1.25em;}
 ul{list-style: none;}
 
+html{
+    scroll-behavior: smooth;
 
+}
 .body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -121,7 +126,8 @@ video{
 }
 
 #nuestros-servicios{
-    text-align: center; 
+    text-align: center;
+    gap: 100px; 
 }
 
 #nuestros-servicios .container{
@@ -131,6 +137,7 @@ video{
 
 #nuestros-servicios p{
     display: none;
+   
 }
 
 hr{
@@ -139,21 +146,91 @@ hr{
     
 }
 
-#nuestros-servicios .carta{
-
+.servicios{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;  
+    gap: 20px;
+    border-radius: 15px;
 }
 
 .carta:first-child{
+    
     background-image: url(images/10730.jpg) ;
 }
 
 .carta:nth-child(2){
-    background-image: url(images/breakfast-5204352_1280.jpg) ;
+    background-image: url(images/swimming-pool-resort.jpg) ;
 }
 
 .carta:nth-child(3){
-    background-image: url(images/living-room-6778197_1280.jpg) ;
+    background-image: url(images/2920.jpg) ;
 }
+
+
+#habitaciones .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 12px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;   
+}
+
+#habitaciones .container img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgb(15, 15, 15, .5);
+}
+
+
+#contacto .container{
+    
+    text-align: center;
+    padding: 20px 12px;
+}
+
+footer
+{
+    text-align: center;
+    padding: 20px 12px;
+    background-color: #00215E; 
+    color: white;
+}
+
+footer h3{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column; 
+   align-items: center;
+    gap: 10px;  
+}
+
+form input{
+    width: 250px;
+    height: 30px;
+    
+}
+
+form textarea{
+    width: 250px;
+    height: 100px;
+    
+}
+
+
+
+
+
 
 
 
