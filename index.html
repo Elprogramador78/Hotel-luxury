@@ -1,23 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOTEL LUXURY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="background">
-        <div class="menu-wrapper">
-            <div class="menu-bar">
-                <a href="#" title="Logo" class="logo">
+    
+    <header>
+        <div class="container">
+            <p class="logo">HOTEL LUXURY</p>
+            <nav>
+                <a href="#">INICIO</a>
+                <a href="#">HABITACIONES</a>
+                <a href="#">SERVICIOS</a>
+                <a href="#">GALERIA</a>
+                <a href="#">CONTACTO</a>
+            </nav>            
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Nuestro Lujo, <br> tu descanso.</h1>
+        <form action="www.google.com">
+            <button>Reserve Ahora</button>
+
+        </form>
+    </section>
+
+    <section id="somos-luxury">
+        <div class="container"></div>
+
+        <div class="img-container"></div>
+        <h2>HOTEL LUXURY MEDELLÍN<br> BIENVENIDOS</h2>
+        <p>El Hotel Luxury Medellín es mucho más que un lugar 
+            para alojarse, es un destino en sí mismo. Desde 
+            espacios versátiles para eventos hasta deliciosa
+            gastronomía, instalaciones de relajación y una 
+            variedad de servicios, estamos comprometidos a 
+            hacer que su estadía sea lo más placentera 
+            posible. Experimenta la diferencia con nosotros
+            en la facinante ciudad de Medellín.
+        </p>
+
+
+    </section>
+
+    <section id="nuestros-servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
 
                 </a>
+            <div class="carta">
+                <h3>ZONA HUMEDA</h3>
+                <p>Nuestra zona humeda totalmente renovada y pensada 
+                    para el descanso y la diversión, climatizada para 
+                    comodidad, es un ambiente tranquilo y natural.
+                    Horario de atención:
+                    <br>
+                    Lunes a Sábado de 7:00 am a 9:30 pm.
+                    <br>
+                    Domingos y Festivos de 7:00 am a 7:00 pm.
 
-                <img class="menu-icon" src="images/menu_hamburguer 50.png"
-                    title="Burger Menu" alt="Burger Menu"
-                    onclick="toggleMenu(this)">
-                
+                </p>
+                <button>+ Info</button>
+            </div>
+            <div class="carta">
+                <h3>RESTAURANTE</h3>
+                <p>En el Hotel Luxury de Medellín podra disfrutar de un 
+                    restaurante que ofrece diferentes especialidades 
+                    nacionales e internacionales, con ambientes únicos
+                    para sus reuniones de negocios y veladas.
+
                 <ul class="navigation">
                     <li>
                         <a href="#services" title="Services">
@@ -43,12 +102,180 @@
                         </a>
                     </li>
                 </ul>
+                </p>
+                <button>+ Info</button>
+            </div>
+            <div class="carta">
+                <h3>HABITACIONES</h3>
+                <p>Hotel Luxury Medellín le ofrece diferentes tipos de habitaciones 
+                    pensadas para su descanso y confort, tenemos la habitación Special
+                    Double, Twin, Junior Suite, Suite y la Gran Suite. Cada una con 
+                    caracteristicas especiales para su comodidad y estilo.
+                </p>
+                <button>+ Info</button>
+            </div>
 
-                </div>
+        </div>
+    </section>
+
+    <section id="habitaciones">
+        <div class="container">
+
+            <h2>Nuestras habitaciones</h2>
+            <div class="special-double">
+                <img src="images/2724.jpg" alt="">
+                <h2>Special Double</h2>
+                <p>La habitación Special Double cuenta
+                    con la caracteristicas de excelencia 
+                    y confort que distinguen a nuetro hotel.
+                    Son 30 metros cuadrados en una habitación
+                    recomendada especialmente para aquellos
+                    que viajan solos o con sus parejas.
+                    Cuenta con una cama Queen Size (1.80m x 1.90m)
+                    y un escritorio que posibilita y facilita las
+                    actividades de trabajo virtual.
+                </p>
+                <button>RESERVE AHORA</button>
+
+            </div>
+
+            <div class="twin">
+                <img src="images/12323.jpg" alt="">
+                <h2>Twin</h2>
+                <p>Esta habitación Special Twin promete al huésped 
+                    bienestar y buen gusto, diseñado especialmente 
+                    para visitantes de la ciudad de Medellín con 
+                    motivos de negocios, turísticos, religiosos y/o 
+                    culturales; dispone de sala, escritorio y mesa
+                    de room service decorada con exclusividad y un
+                    amplio baño.
+                </p>
+                <button>RESERVE AHORA</button>
+
+            </div>
+
+            <div class="junior-suite">
+                <img src="images/164595.jpg" alt="">
+                <h2>Junior Suite</h2>
+                <p>Amplios espacios con una cama King Size y acabados
+                    especiales para su descanso son algunas de las
+                    caracteristicas de esta amplia y confortable 
+                    habitación ideal para ejecutar labores del día 
+                    a día y diseñada especialmente para ejecutivos: 
+                    dispone de sala y escritorio decorado y un amplio
+                    baño.
+                </p>
+                <button>RESERVE AHORA</button>
+
+            </div>
+
+
+            <div class="suite">
+                <img src="images/2724.jpg" alt="">
+                <h2>Suite</h2>
+                <p>Nuestra habitación Suite está diseñada para 
+                    ofrecerle exclusividad, seguridad, confort y
+                    lujo. Su decoración es original y esta 
+                    acompañada de un conjunto de finos detalles, 
+                    dispone de sala-comedor y cuenta con dos baños.
+                </p>
+                <button>RESERVE AHORA</button>
+
+            </div>
+
+
+            <div class="gran-suite">
+                <img src="images/164595.jpg" alt="">
+                <h2>Gran Suite</h2>
+                <p>Queremos brindarle a nuestros huéspedes una
+                    estadía plena en el mejor Hotel 5 estrellas
+                    de Medellín, por eso contamos con 200 
+                    habitaciones de lujo que ofrecen toda la 
+                    comodidad y el descanso que usted se merece.
+                </p>
+                <button>RESERVE AHORA</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="galeria">
+        <div class="container">
+            <h2>GALERIA</h2>
+            <div>
+                <img src="images/10730.jpg" alt="">
+                <img src="images/11073.jpg" alt="">
+                <img src="images/8755.jpg" alt="">
+                <img src="images/2148095223.jpg" alt="">
+                <img src="images/breakfast-5204352_1280.jpg" alt="">
+                <img src="images/living-room-6778197_1280.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contacto">
+        <div class="container">
+            <h2>SIEMPRE EN CONTACTO</h2>
+            <div class="text-formulario"></div>
+            <p>El Hotel Luxury Medellín se encuentra siempre 
+                a su servicio. Si desea ponerse en contacto
+                con nosotros, por favor escríbanos sus 
+                inquietudes y en breve responderemos o puede
+                comunicarse a las lineas correspondientes:
+            </p>
+
+            <p>Si desea información adicional, por favor 
+                escribanos y con gusto atenderemos todas 
+                sus inquietudes.
+            </p>
+
+            <form action="">
+              <input type="text" placeholder="Nombre"> 
+              <input type="email" placeholder="Email"> 
+              <label for="">Mensaje</label>
+              <textarea name="" id="textarea"></textarea>
+              <button>Enviar</button>
+            </form>
 
         </div>
 
     </div>
     <script src="main.js"></script>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="experiencia">
+                <h3>EXPERIENCIA LUXURY</h3>
+                <h4>habitaciones</h4>
+                <h4>Servicios</h4>
+                <h4>Galeria</h4>
+                <h4>Contacto</h4>
+            </div>
+
+            <div class="info-hotel" >
+                <h3>HOTEL LUXURY MEDELLÍN</h3>
+                <h4>📩 reservas@luxury.com</h4>
+                <h4>📪 Calle 22 F # 43-33 Medellín</h4>
+                <h4>📞Teléfono 604 3235568</h4>
+                <h4>🌎Whatapp click aquí</h4>
+            </div>
+
+            <div class="redes-sociales" >
+                <h3>NUESTRAS REDES</h3>
+                <img src="images/icons-facebook-40.png" alt="icono Facebook">
+                <img src="images/icons-instagram-40.png" alt="icono Instagram">
+                <img src="images/icons-youtube-40.png" alt="icono YouTube">
+            </div>
+
+            <h5>&copy; Hotel Luxury Medellín 2024 </h5>
+
+        </div>
+    </footer>
+
 </body>
 </html>
