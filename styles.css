@@ -42,15 +42,16 @@ button:hover{
 
 header{
 
-    background-color: #948979;
+    background-color: black;
+    opacity: 50%;
 }
 
 header .logo{
     margin: 0;
     padding: 25px 30px;
-    font-weight: bold;
-    color: white;
-    font-size: 2em;
+    opacity: none;
+    width: 30%;
+    
 }
 
 header .container{
@@ -74,13 +75,16 @@ header a{
 }
 
 header a:hover{
-    color: #00215E;
+    color: #FC4100;
 }
 
 #hero{
     min-height: 100vh;
-    position: relative;
-    
+    position: relative;   
+}
+
+#hero .promo img{
+   opacity: 50%; 
 }
 
 video{
@@ -128,6 +132,7 @@ video{
 #nuestros-servicios{
     text-align: center;
     gap: 100px; 
+    
 }
 
 #nuestros-servicios .container{
@@ -140,9 +145,23 @@ video{
    
 }
 
+#nuestros-servicios .carta{
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px;  
+}
+
+#nuestros-servicios .carta h3{
+    color: white;
+}
+
 hr{
-    height: 5px;
+    height: 3px;
     background-color: #948979;
+    width: 80%;
+    margin: auto;
     
 }
 
@@ -159,15 +178,15 @@ hr{
 
 .carta:first-child{
     
-    background-image: url(images/10730.jpg) ;
+    background-image: url(images/8755.jpg) ;
 }
 
 .carta:nth-child(2){
-    background-image: url(images/swimming-pool-resort.jpg) ;
+    background-image: url(images/breakfast-5204352_1280.jpg) ;
 }
 
 .carta:nth-child(3){
-    background-image: url(images/2920.jpg) ;
+    background-image: url(images/164595.jpg) ;
 }
 
 
@@ -189,11 +208,46 @@ hr{
     box-shadow: 0px 3px 5px rgb(15, 15, 15, .5);
 }
 
+#galeria .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 12px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;   
+}
+
+#galeria .container img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgb(15, 15, 15, .5);
+}
 
 #contacto .container{
     
     text-align: center;
     padding: 20px 12px;
+}
+
+#enlaces{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+#enlaces .experiencia{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#enlaces .info-hotel{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 footer
@@ -224,6 +278,87 @@ form input{
 form textarea{
     width: 250px;
     height: 100px;
+    
+}
+
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+
+    #somos-luxury .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #somos-luxury .texto{
+        text-align: center;
+        font-size: 18px;
+        width: 50%;
+        padding: 30px;
+       
+    }
+
+    #somos-luxury .title{
+        font-size: 20px;
+    }
+
+        
+    #nuestros-servicios p{
+        display: block;
+        color: white;
+    }
+
+    .carta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .carta button{
+        width: 100px;
+        margin: auto;
+        
+    } 
+
+    #enlaces{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    #enlaces h4{
+        font-size: 20px;
+    }
+
+
+    .copyright{
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: right;
+        margin-right: 60px;
+        
+    }
+
+    .experiencia a{
+        color: white;
+    }
     
 }
 
